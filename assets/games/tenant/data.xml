@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<game>
+	<title>TENANT</title>
+	<release-date>25 May 2020</release-date>
+	<website>http://croxel-studios.com/tenant</website>
+	
+	<platforms>
+		<platform>
+			<name>PC (Windows only)</name>
+			<link>https://croxel-studios.itch.io/tenant</link>
+		</platform>
+	</platforms>
+	
+	
+	<prices>
+		<price>
+			<currency>Free</currency>
+		</price>
+	</prices>
+	
+
+	<description>
+	TENANT is a space dogfighting game in which you can invade and use the enemy ships to your advantage. Each spaceship has an unique ability that can be useful in different combat situations.
+	</description>
+	
+	<history>
+	TENANT is the first game released by Croxel Studios. Its development started on early 2020 with the goal of making a small but polished game and break into the industry.
+	</history>
+
+	<features>
+		<feature>Invasion mechanic where the player can shift to enemy ships.</feature>
+		<feature>Fast-paced, hardcore, arcade shmup gameplay.</feature>
+		<feature>4 spaceship classes with different abilities each.</feature>
+		<feature>Dynamic soundtrack that evolves through game stages.</feature>
+		<feature>Unique and challenging Boss fight.</feature>
+		<feature>Original visual style, a mixture of 3D and pixel-art.</feature>
+	</features>
+	
+	<trailers>
+		<trailer>
+			<name>Trailer</name>
+			<youtube>TpZPLC9YTPI</youtube>
+		</trailer>
+		<trailer>
+			<name>Full gameplay</name>
+			<youtube>lB6eQfGWr8Q</youtube>
+		</trailer>
+	</trailers>
+
+	<additionals>
+		<additional>
+			<title>Original Soundtrack by Alberto Navarro</title>
+			<description>Available for free from</description>
+			<link>https://forameuss.bandcamp.com/album/tenant-original-soundtrack</link>
+		</additional>
+	</additionals>
+	
+	<credits>
+		<credit>
+			<person>Pablo Moreno</person>
+			<role>Producer, Game Designer, Lead Programmer, Creative Director</role>
+			<website>https://twitter.com/HypercubeCore</website>
+		</credit>
+		<credit>
+			<person>Alberto Navarro</person>
+			<role>Composer, Sound Designer</role>
+			<website>https://forameuss.com</website>
+		</credit>
+		<credit>
+			<person>Luis Gutiérrez</person>
+			<role>Programmer</role>
+			<website>https://lwyx.itch.io/</website>
+			
+		</credit>
+		<credit>
+			<person>Laura Cote</person>
+			<role>Concept Artist</role>
+			<website>https://www.artstation.com/sweetsided</website>
+		</credit>
+		<credit>
+			<person>Paz Sánchez</person>
+			<role>Concept Artist</role>
+		</credit>
+		<credit>
+			<person>Patricia Lancharro</person>
+			<role>Concept Artist</role>
+		</credit>
+		<credit>
+			<person>Pablo León</person>
+			<role>3D Artist</role>
+		</credit>
+	</credits>
+</game>

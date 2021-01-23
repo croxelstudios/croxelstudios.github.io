@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<game>
+	<title>Re-Slash</title>
+	<release-date>5 October 2020</release-date>
+	<website>https://croxel-studios.itch.io/re-slash</website>
+	
+	<platforms>
+		<platform>
+			<name>WebGL</name>
+			<link>https://croxel-studios.itch.io/re-slash</link>
+		</platform>		
+	</platforms>
+	
+	
+	<prices>
+		<price>
+			<currency>Free</currency>
+		</price>
+	</prices>
+	
+
+	<description>
+	Re-Slash is an exciting mix of hack and slash and puzzle game in which you have just a few seconds to move and attack freely before your body glitches out and gets stuck in a loop, repeating your moves over and over. You will need to kill every enemy to advance to the next level.
+	</description>
+	
+	<history>
+	Re-Slash is the game submitted by Croxel Studios for the Ludum Dare 47.
+	</history>
+
+	<trailers>
+		<trailer>
+			<name>Full gameplay</name>
+			<youtube>oNLhKbCDo00</youtube>
+		</trailer>
+	</trailers>
+	
+	<credits>
+		<credit>
+			<person>Pablo Moreno</person>
+			<role>Game Designer, Creative Director</role>
+			<website>https://twitter.com/HypercubeCore</website>
+		</credit>
+		<credit>
+			<person>Alberto Navarro</person>
+			<role>Composer, Sound Designer</role>
+			<website>https://forameuss.com</website>
+		</credit>
+		<credit>
+			<person>Luis Gutiérrez</person>
+			<role>Programmer</role>
+			<website>https://lwyx.itch.io/</website>			
+		</credit>		
+	</credits>
+</game>
