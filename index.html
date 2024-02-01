@@ -1,55 +1,295 @@
+<!--Looking for something?-->
+
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Croxel Studios - Indie Game Studio</title>
-<link rel="icon" type="image/png" href="favicon.png" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-  background-color: black;
-}
 
-.bg {
-  
-  background-image: url("bg.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  position: relative;
-  height: 100%;
-  opacity: .7;
-}
 
-.logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
-  max-width: 50%;
-  max-height: 50%;
-  text-align: center;
-  vertical-align: middle;
+    <title>Croxel Studios - Indie Game Studio</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+    <meta property="og:title" content="Croxel Studios - Indie Game Studio" />
+    <meta property="og:description"
+        content="Croxel Studios is an indie games studio from spain which aims to create games that reconcile deep meaning with fun and original mechanics.">
+    <meta property="og:image" content="https://croxel-studios.com/assets/img/croxel.jpg" />
+    <meta property="og:type" content="website" />
 
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-</style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/imagehover.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
-<body>
 
-<div class="bg">
-  
-  <span>
-    <img class="logo" src="logo.png">
-  </span>
-</div>
 
+
+
+<body class="fadein-anim">
+
+    <!-- Navbar -->
+    <nav class="topnav sticky" id="croxelNavbar">
+        <a href="#home" onclick="navbarResponsive()" class="active no-hover">Croxel Studios</a>
+        <a href="#newsletter" onclick="navbarResponsive()">Newsletter</a>
+        <a href="#about" onclick="navbarResponsive()">About</a>
+        <a href="#games" onclick="navbarResponsive()">Games</a>
+        <a href="#team" onclick="navbarResponsive()">Team</a>
+        <a href="#contact" onclick="navbarResponsive()">Contact</a>
+        <a href="https://croxel-studios.com/presskit">Presskit</a>
+
+        <div class="social desktop-only">&nbsp;&nbsp;&nbsp;</div>
+        <a href="https://twitter.com/croxelstudios" class="social brand fa-twitter"></a>
+        <a href="https://www.instagram.com/croxelstudios/" class="social brand fa-instagram"></a>
+        <a href="https://croxel-studios.itch.io/" class="social brand fa-itch-io"></a>
+        <a href="https://www.youtube.com/channel/UCfOmox8DCRZPQ1gBDzrfqoA/" class="social brand fa-youtube"></a>
+        <a href="mailto:contact@croxel-studios.com" class="social fa-icon  fa-envelope"></a>
+        <a href="javascript:void(0);" class="icon no-hover" onclick="navbarResponsive()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+
+    <!-- Video -->
+    <header>
+        <div id="home">
+            <video class="video-logo" autoplay loop muted disableRemotePlayback>
+                <source src="./assets/video/CroxelStudiosReel.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+    </header>
+
+    <!-- Newsletter -->
+    <section id="newsletter">
+        <h2>GET ACCESS TO OUR NEW GAME BETA</h2>
+        <div>
+            Sign up to get weekly updates and insights from our studio. We will send you exclusive
+            content like games for free! <br />Our current promotion includes free access to the beta of our newest game, ADV3NTUR3.<br /><br />
+            <!-- Begin Mailchimp Signup Form -->
+            <div id="mc_embed_signup">
+                <form
+                    action="https://croxel-studios.us4.list-manage.com/subscribe/post?u=2a9da6bfbf9792a56aeab1338&amp;id=ad2beeb7a9"
+                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                    target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                        <div class="mc-field-group">
+                            <label for="mce-FNAME"></label>
+                            <input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="Name">
+                        </div>
+
+                        <div class="mc-field-group">
+                            <label for="mce-EMAIL"></span>
+                            </label>
+                            <input type="email" value="" name="EMAIL" class="required email" placeholder="Email"
+                                id="mce-EMAIL">
+                        </div>
+
+                        <div class="mc-field-group input-group" style="display:none">
+                            <ul>
+                                <li><input type="checkbox" value="1" name="group[73611][1]"
+                                        id="mce-group[73611]-73611-0"><label
+                                        for="mce-group[73611]-73611-0">tenant</label></li>
+                                <li><input type="checkbox" value="2" name="group[73611][2]"
+                                        id="mce-group[73611]-73611-1" checked><label
+                                        for="mce-group[73611]-73611-1">adv3beta</label></li>
+                                <li><input type="checkbox" value="4" name="group[73611][4]"
+                                        id="mce-group[73611]-73611-2"><label for="mce-group[73611]-73611-2">adv3</label>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                                name="b_2a9da6bfbf9792a56aeab1338_ad2beeb7a9" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe"
+                                id="mc-embedded-subscribe" class="button"></div>
+                    </div>
+                </form>
+            </div>
+            <!--End mc_embed_signup-->
+        </div>
+    </section>
+
+    <br />
+
+    <!-- About -->
+    <section id="about">
+        <div class="logo">
+            <picture>
+                <source media="(max-width: 900px)" srcset="./assets/img/logo_vertical.png">
+                <source media="(min-width: 900px)" srcset="./assets/img/logo_horizontal.png">
+                <img src="./assets/img/logo_vertical.png" alt="Croxel Studios logo">
+            </picture>
+        </div>
+        <div class="decription">
+            <p>
+                Croxel Studios is a young indie games studio from Seville (Spain) composed by three talented people. We
+                all share the idea that videogames, when created as a form of art, must be both mechanically interesting
+                and subtextually meaningful, and we work hard in our creative proccess to try to get as close to
+                that point as possible. That is our motto; we create games that reconcile deep meaning with
+                interesting mechanics.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Games -->
+    <section id="games">
+
+
+        <h2>Our games</h2>
+
+        <figure class="imghvr-fade game-big">
+            <img src="./assets/games/adv3ntur3/screenshot.jpg" alt="ADV3NTUR3">
+            <figcaption>
+                <img src="./assets/games/adv3ntur3/logo.png" alt="ADV3NTUR3 logo">
+            </figcaption>
+            <a href="https://croxel-studios.itch.io/adv3ntur3/"></a>
+        </figure>
+        <br />    
+        <figure class="imghvr-fade game-big">
+            <img src="./assets/games/tenant/screenshot.jpg" alt="TENANT">
+            <figcaption>
+                <img src="./assets/games/tenant/logo.png" alt="TENANT logo">
+            </figcaption>
+            <a href="https://croxel-studios.itch.io/tenant"></a>
+        </figure>
+        <br />
+        <div class="grid games">
+            <figure class="imghvr-fade game-small">
+                <img src="./assets/games/re-slash/screenshot.jpg" alt="Re-Slash">
+                <figcaption>
+                    <img src="./assets/games/re-slash/logo.png" alt="Re-Slash logo">
+                </figcaption>
+                <a href="https://croxel-studios.itch.io/re-slash"></a>
+            </figure>
+
+            <figure class="imghvr-fade game-small">
+                <img src="./assets/games/serfs galore/screenshot.jpg" alt="Serfs Galore">
+                <figcaption>
+                    <img src="./assets/games/serfs galore/logo.png" alt="Serfs Galore logo">
+                </figcaption>
+                <a href="https://croxel-studios.itch.io/serfs-galore"></a>
+            </figure>
+
+            <figure class="imghvr-fade game-small">
+                <img src="./assets/games/lucent/screenshot.jpg" alt="Lucent">
+                <figcaption>
+                    <img src="./assets/games/lucent/logo.png" alt="TENANT logo">
+                </figcaption>
+                <a href="https://croxel-studios.itch.io/lucent-pjv"></a>
+            </figure>
+
+        </div>
+    </section>
+    <br />
+
+    <!-- Team -->
+    <section id="team">
+        <h2>Meet the team</h2>
+        <div class="grid grayscale" id="los-notas">
+            <div class="nota">
+                <a href="https://www.linkedin.com/in/luis-guti%C3%A9rrez-d%C3%ADaz-041a07a8/">
+                    <span class="panel">
+                        <img src="./assets/img/team/luis.jpg" alt="Luis Gutiérrez">
+                        <h2>Luis Gutiérrez<br />(@Lwyx)</h2>
+                        <h3>Programmer, Game Developer, Pretty Boy</h3>
+                        <p>Master in copying scripts from the internet. Sometimes I even type some code. Is very hard
+                            todo esto. Hate social networks.</p>
+                    </span>
+                </a>
+
+            </div>
+            <div class="nota">
+                <a href="https://twitter.com/HypercubeCore">
+                    <span class="panel">
+                        <img src="./assets/img/team/pablo.jpg" alt="Pablo Moreno (@HypercubeCore)">
+                        <h2>Pablo Moreno<br />(@HypercubeCore)</h2>
+                        <h3>Producer, Game Designer, Dreamer</h3>
+                        <p>Critical thinker interested in the unknown. Loves maths, philosophy and introspection.
+                            Favorite game is FEZ.<br />Art is eternal. Honesty above all else.</p>
+                    </span>
+                </a>
+            </div>
+            <div class="nota">
+                <a href="https://forameuss.com">
+                    <span class="panel">
+                        <img src="./assets/img/team/alberto.jpg" alt="Alberto Navarro (@Forameuss)">
+                        <h2>Alberto Navarro<br />(@forameuss)</h2>
+                        <h3>Composer, SFX Designer, Fried Egg Lover</h3>
+                        <p>Melo-maniac. Can make all sorts of noises with my mouth
+                            and limbs.<br>Rachmaninoff stan.</p>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <br />
+
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="croxel-form">
+            <form action="https://formspree.io/f/xoqpraal" method="POST">
+                <label>
+                    <input type="text" name="name" required="required" placeholder="Name">
+                </label>
+                <br />
+                <label>
+                    <input type="email" name="_replyto" required="required" placeholder="Email">
+                </label>
+                <br />
+                <label>
+                    <textarea name="message" required="required" placeholder="Message"></textarea>
+                </label>
+                <br />
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer id="footer">
+        <h3>You can follow us on our social media!</h3>
+
+        <ul class="icons">
+            <li><a href="https://twitter.com/croxelstudios" class="brand fa-twitter"><span class="label"></a></li>
+
+            <li><a href="https://www.instagram.com/croxelstudios/" class="brand fa-instagram"><span
+                        class="label"></span></a></li>
+
+            <li><a href="https://croxel-studios.itch.io/" class="brand fa-itch-io"><span class="label"></span></a></li>
+
+            <li><a href="https://www.youtube.com/channel/UCfOmox8DCRZPQ1gBDzrfqoA/" class="brand fa-youtube"><span
+                        class="label"></span></a></li>
+
+            <li><a href="mailto:contact@croxel-studios.com" class="fa-icon  fa-envelope"><span class="label"></span></a>
+            </li>
+        </ul>
+
+        <a href="https://croxel-studios.com/presskit"><button>Presskit</button></a>
+
+        <div class="copyright">
+            &copy; Croxel Studios <script>document.write(new Date().getFullYear())</script> | <a href="./privacy-policy.html">Privacy Policy</a>
+
+        </div>
+    </footer>
+
+
+    <script src="./js/scripts.js"></script>
 </body>
+
 </html>

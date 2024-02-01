@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<game>
+	<title>Lucent</title>
+	<release-date>14 July 2020</release-date>
+	<website>https://croxel-studios.itch.io/lucent-pjv</website>
+	
+	<platforms>
+		<platform>
+			<name>PC (Windows and Linux)</name>
+			<link>https://croxel-studios.itch.io/lucent-pjv</link>
+		</platform>
+	</platforms>
+	
+	
+	<prices>
+		<price>
+			<currency>Free</currency>
+		</price>
+	</prices>
+	
+
+	<description>
+	Lucent is a reverse stealth puzzle game in which the main character turns into stone when he steps out of the light. In this state, the player loses all control over them, but environment can still make them move.
+	</description>
+	
+	<history>
+	Lucent is the game submitted by Croxel Studios for the GMTK Jam 2020.
+	</history>
+
+	<features>
+		<feature>12 Rooms full of fun, reverse stealth action puzzles.</feature>
+		<feature>Unique high contrast visual style using colorful lighting over very dark surfaces.</feature>
+		<feature> An original twist to the stealth game formula.</feature>
+		<feature>Some chill music.</feature></features>
+	
+	<trailers>
+		<trailer>
+			<name>Full gameplay</name>
+			<youtube>xXoVKpOvKy4</youtube>
+		</trailer>
+	</trailers>
+
+	<credits>
+		<credit>
+			<person>Pablo Moreno</person>
+			<role>Producer, Game Designer, Lead Programmer, Creative Director</role>
+			<website>https://twitter.com/HypercubeCore</website>
+		</credit>
+		<credit>
+			<person>Alberto Navarro</person>
+			<role>Composer, Sound Designer</role>
+			<website>https://forameuss.com</website>
+		</credit>
+		<credit>
+			<person>Luis Gutiérrez</person>
+			<role>Programmer</role>
+			<website>https://lwyx.itch.io/</website>
+			
+		</credit>
+	</credits>
+</game>

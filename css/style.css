@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    /* COLOR PALETTE */
+    --color-background: #110E29;
+    --color-text: #FFFFFF;
+    --color-link: #8FF8FF;
+    --color-link-hover: #FFFFFF;
+    --color-darklinks: #030A38;
+    --color-orange: #FFC13E;
+    --color-text-semitransparent: rgba(255, 255, 255, 0.7);
+    --color-background-fullblack: rgba(0, 0, 0, 1);
+    --color-background-black-semitransparent: rgba(0, 0, 0, .55);
+    --color-background-white-semitransparent: rgba(255, 255, 255, .55);
+    --color-background-standard:#99999944;
+}
+
+html {
+    background-image: url('../assets/img/bg.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    height: calc(var(--vh, 1vh) * 100);/*Fixes Android Chrome Bug*/
+    margin: 0;
+    
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: var(--color-background-black-semitransparent);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    align-items: center;
+    
+    scroll-behavior: smooth;
+    bottom: 0;
+
+    overflow-y: scroll;
+    -webkit-overflow-scrolling:touch;
+}
+
+body, h1, h2, h3, h4, h5, h6, textarea {
+    font-family: "Saira", sans-serif;
+    color: var(--color-text);
+}
+
+
+
+p {
+    color: var(--color-text-semitransparent);
+}
+
+a {
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-link-hover);
+}
+
+
+
+.video-logo{
+    margin-top: 3em;
+    
+    width: 100%;
+    height: 55vh;
+    object-fit: cover;
+}
+
+
+.video-logo-ghost{
+    
+    width: 0vh;
+    height: 30vh;
+    object-fit: cover;
+}
+@media screen and (max-width: 900px) {
+    .video-logo-ghost{
+    
+        width: 0vh;
+        height: 0vh;
+        object-fit: cover;
+    }
+}
+
+
+
+.brand {
+    font-family: 'Font Awesome 5 Brands';
+}
+
+.fa-icon {
+    font-family: 'Font Awesome 5 Free';
+}
+
+
+
+section {
+    scroll-margin-top: 60px;
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+.decription{
+    margin: 4vh;
+}
+
+.logo img{
+    width: 90%;
+}
+
+
+@media screen and (max-width: 900px) {
+    .logo img{
+        max-width: 25vh;
+    }
+}
+
+
+/**/
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1%;
+}
+
+.grid .row {
+    display: inline;
+}
+
+.grid.games {
+    margin: 0 3.25% 0 3.25%;
+}
+
+.game-big{
+    border: 1px solid white;
+    background-color: var(--color-background-white-semitransparent);
+    height: 50vh;
+    width: 93.5%;
+
+}
+
+.game-big img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle
+    
+}
+
+.game-small {
+    border: 1px solid white;
+    background-color: var(--color-background-white-semitransparent);
+    display: inline;
+    height: 40vh;
+    max-width: 100%;
+    margin-top: 1vh;
+
+}
+
+.game-small img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle
+
+}
+
+figcaption img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: scale-down !important;
+}
+
+
+.nota {
+    border: 1px solid white;
+    background-color: var(--color-background-black-semitransparent);
+    display: inline-block;
+    margin:0% 10% 5% 10%;
+}
+
+.nota img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.nota p, .nota h2 {
+    padding: 0 5% 0 5%;
+}
+
+
+@media screen and (min-width: 900px) {
+    .grayscale img{
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+        transition: 0.15s;
+    }
+
+    .grayscale img:hover{
+        -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(0%);
+    }
+}
+
+
+/* FADE IN ANIMATION */
+.fadein-anim {
+    animation: fadein-anim 2s linear alternate both;
+}
+
+@keyframes fadein-anim {
+    0% {
+        background: var(--color-background-fullblack);
+    }
+    100% {
+        background: var(--color-background-black-semitransparent);
+    }
+}
+
+/**/
+
+.centeredo {
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.thick-text {
+    font-weight: bold;
+}
+
+.vertical-center {
+    position: absolute;
+    align-items: center;
+    top: 30%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+  }
+
+/*NAVBAR*/
+.sticky {
+    position: fixed;
+    width: 100%;
+    margin-right: 16%!important;
+    display: table;
+}
+
+
+.topnav {
+    width: 100vw;
+    background-color: var(--color-darklinks);
+    z-index: 9999;
+    height: auto;
+    display: table-cell;
+    text-align:center;
+    vertical-align: middle;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: var(--color-text);
+    text-align: center;
+    padding: 2vh;
+    text-decoration: none;
+    background-color: var(--color-darklinks);
+}
+
+.topnav .social {
+    float: right;
+    font-size: 1.5em;
+}
+
+.topnav a:not(.no-hover):hover {
+    background-color: var(--color-link-hover);
+    color: var(--color-darklinks);
+}
+
+.topnav a.active {
+    background-color: var(--color-darklinks);
+    color: var(--color-text);
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .topnav.responsive a.social {
+        float: left;
+    }
+}
+
+
+
+
+/* FORMS */
+
+croxel-form{
+    width: 90%;
+}
+
+
+input, textarea{
+    border-color: var(--color-text);
+    border-width: 2px;
+    background-color : #00000000;
+    width: 50vh;
+    max-width: 100%;
+    margin: 1vh;
+    padding: 1em;
+    color: var(--color-text);
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 900px) {
+    input, textarea{
+        width: 80%;
+    }
+}
+
+input:focus, textarea:focus{
+    outline: none !important;
+    border-color: var(--color-link);
+    background-color : #FFFFFF22;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+::placeholder {
+    color: var(--color-text-semitransparent);
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--color-text-semitransparent);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--color-text-semitransparent);
+  }
+
+.button, button{
+    background-color: var(--color-link);
+    color: var(--color-darklinks);
+    border-radius: 6px;
+    border: none;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+    margin: 1em;
+    cursor: pointer;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+}
+
+.button:hover, button:hover {
+    background-color: var(--color-orange);
+}
+
+
+
+.icons{
+    text-align: center;
+    padding-inline: 0;
+} 
+
+.icons li {
+    display: inline;
+    padding: 1em;
+    font-size: 2vh;
+}
+
+.copyright{
+    padding: 1vh;
+}
+
+
+
+/*imagehover overrides*/
+[class^='imghvr-'], [class*=' imghvr-'] {
+    background: none;
+}
+
+[class*=" imghvr-"] figcaption, [class^=imghvr-] figcaption{
+    background: rgba(0, 0, 0, .4);
+}
+
+@media screen and (max-width: 900px) {
+    [class*=" imghvr-"] figcaption, [class^=imghvr-] figcaption{
+        opacity: 1;
+        
+    }   
+}
+
+
+/*ANDROID CHROME*/
+
+@media only screen and (max-device-width: 900px) {
+    html {
+      height: calc(100% + 60px);
+      min-height: calc(100% + 60px);
+    }
+
+    .desktop-only{
+        display:none
+    }
+}

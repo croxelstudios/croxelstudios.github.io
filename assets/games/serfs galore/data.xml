@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<game>
+	<title>Serfs Galore</title>
+	<release-date>24 August 2020</release-date>
+	<website>https://croxel-studios.itch.io/serfs-galore</website>
+	
+	<platforms>
+		<platform>
+			<name>PC (Windows and Linux)</name>
+			<link>https://croxel-studios.itch.io/serfs-galore</link>
+		</platform>
+	</platforms>
+	
+	
+	<prices>
+		<price>
+			<currency>Free</currency>
+		</price>
+	</prices>
+	
+
+	<description>
+	Serfs Galore is an action RTS in which the main player will spend coins to recruit soldiers and command them to beat enemies and grab keys to open doors.
+	</description>
+	
+	<history>
+	Serfs Galore is the game submitted by Croxel Studios for the MizJam1.
+	</history>
+
+	<features>
+		<feature>Complex map full of backtracking and puzzling layouts.</feature>
+		<feature>Lots of different soldiers with different strenght values.</feature>
+		<feature>Three different kinds of enemies who will try to destroy you.</feature>
+		
+		<feature>Doors and keys mechanics.</feature>
+		<feature>Original fun and bouncy artstyle using billboarding and a round world shader.</feature>
+		<feature>A soundtrack that intensifies as the player progresses.</feature>
+	</features>
+
+	<trailers>
+		<trailer>
+			<name>Devlog</name>
+			<youtube>2RUd4EqnPhE</youtube>
+		</trailer>
+		<trailer>
+			<name>Full gameplay</name>
+			<youtube>63KZhM9VKMg</youtube>
+		</trailer>
+	</trailers>
+	<credits>
+		<credit>
+			<person>Pablo Moreno</person>
+			<role>Game Designer, Creative Director</role>
+			<website>https://twitter.com/HypercubeCore</website>
+		</credit>
+		<credit>
+			<person>Luis Gutiérrez</person>
+			<role>Programmer</role>
+			<website>https://lwyx.itch.io/</website>
+			
+		</credit>
+		<credit>
+			<person>Alberto Navarro</person>
+			<role>Composer, Sound Designer</role>
+			<website>https://forameuss.com</website>
+		</credit>
+	</credits>
+</game>
