@@ -154,6 +154,20 @@ section {
 
 }
 
+.game-proto {
+    border: 1px solid white;
+    background-color: var(--color-background-white-semitransparent);
+    height: 20vh;
+    width: 93.5%;
+}
+
+.game-proto img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle
+}
+
 .game-big img{
     height: 100%;
     width: 100%;
