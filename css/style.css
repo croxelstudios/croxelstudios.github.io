@@ -205,7 +205,9 @@ figcaption img{
     border: 1px solid white;
     background-color: var(--color-background-black-semitransparent);
     display: inline-block;
-    margin:0% 10% 5% 10%;
+    /*margin:0% 10% 5% 10%;*/
+    width: 50vh;
+    margin: auto;
 }
 
 .nota img {
