@@ -15,13 +15,13 @@
 }
 
 html {
-    background-image: url('../assets/img/bg.jpg');
+    background-image: url('../assets/img/bb64/checkerboard.png');
     background-repeat: repeat;
     background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
+    background-size: 200px;
+    -webkit-background-size: 200px;
+    -moz-background-size: 200px;
+    -o-background-size: 200px;
     height: calc(var(--vh, 1vh) * 100);/*Fixes Android Chrome Bug*/
     margin: 0;
     
@@ -461,4 +461,31 @@ input:focus, textarea:focus{
     .desktop-only{
         display:none
     }
+}
+
+/*bb64*/
+.hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    width: 60%;
+    margin-top: -5vh;
+}
+
+.hero-content h2 {
+    font-size: 1.5vw;
+}
+
+.hero-logo {
+    width: 70%;
+}
+
+.newsletter-text {
+    margin-top: -7vh;
+    font-size: 1vw;
 }
