@@ -151,7 +151,6 @@ section {
     background-color: var(--color-background-white-semitransparent);
     height: 50vh;
     width: 93.5%;
-
 }
 
 .game-proto {
@@ -173,7 +172,22 @@ section {
     width: 100%;
     object-fit: cover;
     vertical-align: middle
-    
+}
+
+.game-medium {
+    border: 1px solid white;
+    background-color: var(--color-background-white-semitransparent);
+    display: inline;
+    height: 45vh;
+    max-width: 100%;
+    margin-top: 0vh;
+}
+
+.game-medium img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle
 }
 
 .game-small {
@@ -183,7 +197,6 @@ section {
     height: 40vh;
     max-width: 100%;
     margin-top: 1vh;
-
 }
 
 .game-small img{
@@ -191,7 +204,6 @@ section {
     width: 100%;
     object-fit: cover;
     vertical-align: middle
-
 }
 
 figcaption img{
